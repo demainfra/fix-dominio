@@ -23,6 +23,13 @@ O script foi criado para:
 
 ---
 
+## 0. Antes de mais nada:
+### INSTALE O GIT NO EQUIPAMENTO:
+
+```
+apt update && apt install git -y
+```
+
 ## O que o script faz
 
 ### 1. Define o modo não-interativo para o APT
@@ -53,7 +60,7 @@ session required pam_mkhomedir.so skel=/etc/skel umask=0077
 
 ---
 
-## Instalação / Uso
+# Instalação / Uso
 ```
 chmod +x fix_pam_mount_auto.sh
 sudo ./fix_pam_mount_auto.sh
